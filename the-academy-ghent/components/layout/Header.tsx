@@ -45,7 +45,7 @@ export default function Header() {
               priority
             />
             <Image
-              src="/images/tag-lockup.jpeg"
+              src="/images/tag-lockup.png"
               alt="The Academy Ghent — The Academy of Golden Gloves"
               width={340}
               height={90}
