@@ -42,7 +42,7 @@ export default function Hero() {
         >
           Boksen zoals
           <br />
-          het behoort.
+          het hoort.
         </motion.h1>
 
         <motion.p
@@ -52,7 +52,7 @@ export default function Hero() {
           className="mt-7 max-w-md text-bone-muted text-base md:text-lg leading-relaxed"
         >
           Van eerste stoot tot ringervaring. The Academy Ghent is de plek waar
-          techniek, discipline en gemeenschap samenkomen — voor iedereen die
+          techniek, discipline en gemeenschap samenkomen, voor iedereen die
           het menens is.
         </motion.p>
 
