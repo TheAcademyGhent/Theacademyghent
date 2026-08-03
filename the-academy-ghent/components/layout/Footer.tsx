@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="container-academy py-16 md:py-24 grid grid-cols-1 md:grid-cols-12 gap-12">
         <div className="md:col-span-4 flex flex-col gap-6">
           <Image
-            src="/images/tag-lockup.jpeg"
+            src="/images/tag-lockup.png"
             alt={`${SITE.name} — ${SITE.tagline}`}
             width={320}
             height={84}
