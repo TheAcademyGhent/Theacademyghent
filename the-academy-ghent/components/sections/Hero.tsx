@@ -51,9 +51,10 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.28, ease }}
           className="mt-7 max-w-md text-bone-muted text-base md:text-lg leading-relaxed"
         >
-          Van eerste stoot tot ringervaring. The Academy Ghent is de plek waar
-          techniek, discipline en gemeenschap samenkomen, voor iedereen die
-          het menens is.
+          Meer dan een boksclub. Een plek waar kampioenen en beginners groeien.
+          The Academy Of Golden Gloves Brengt Techniek, Discipline en een sterke community samen voor iedereen die zichzelf wil uitdagen.
+          
+  
         </motion.p>
 
         <motion.div
