@@ -3,7 +3,7 @@ import { ClassLevel, Coach, MembershipTier, Testimonial, FaqItem, Stat } from "@
 // Alle foto's zijn tijdelijke, vrij te gebruiken placeholders (Unsplash-licentie).
 // Vervang de URL's door eigen fotografie/video van de zaal, leden en coaches zodra beschikbaar.
 export const IMAGES = {
-  homeHero: "https://images.unsplash.com/photo-1732440290008-c092bda3ccbc?q=80&w=2400&auto=format&fit=crop",
+  homeHero: "/images/hero-home.jpg"
   facility: "https://images.unsplash.com/photo-1716306886418-f84f6d4c2f3a?q=80&w=2000&auto=format&fit=crop",
   aboutHero: "https://images.unsplash.com/photo-1716307043003-dbe6a5cc496e?q=80&w=2400&auto=format&fit=crop",
   aboutSecondary: "https://images.unsplash.com/photo-1575747515871-2e323827539e?q=80&w=1600&auto=format&fit=crop",
