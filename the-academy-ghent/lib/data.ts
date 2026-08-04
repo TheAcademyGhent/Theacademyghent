@@ -78,7 +78,7 @@ export const COACHES: Coach[] = [
     name: "Kenny De Bruycker",
     role: "Hoofdcoach & oprichter",
     bio: "Kenny De Bruycker is sinds 6 jaar hoofdcoach van The Academy Ghent en daarnaast Nationaal Elite Coach van Team Belgium. Hij begeleidt boksers van recreatief niveau tot de nationale top, met een sterke focus op techniek, discipline en prestaties."
-    credentials: ["6 jaar Hoofdcoach, Team Belgium Elite, Technische Expertise, Topsportbegeleiding"],
+    credentials: ["6 jaar Hoofdcoach"," Team Belgium Elite","Technische Expertise","Topsportbegeleiding"],
   },
   {
     slug: "Peter Blauwers",
@@ -112,7 +112,6 @@ export const MEMBERSHIPS: MembershipTier[] = [
     idealFor: "2x per week",
     features: [
       "2 les per week",
-      
      "Gratis intake & materiaal in leen",
       "Geen opstartkosten",
     ],
@@ -126,8 +125,7 @@ export const MEMBERSHIPS: MembershipTier[] = [
     features: [
       "Onbeperkt trainen",
       "Toegang tot alle groepslessen",
-      "Geen opstartkosten",
-      
+      "Geen opstartkosten", 
     ],
     featured: true,
   },
@@ -140,8 +138,6 @@ export const MEMBERSHIPS: MembershipTier[] = [
     features: [
       "10 losse trainingen",
       "6maand geldig",
-      
-      
     ],
   },
 ];
