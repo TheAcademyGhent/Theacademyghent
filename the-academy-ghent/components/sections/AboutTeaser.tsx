@@ -22,7 +22,7 @@ export default function AboutTeaser() {
           <SectionHeading
             eyebrow="Over The Academy"
             title="Een echte boksschool, geen fitness-trend."
-            description="600 m² volledig uitgeruste trainingsruimte in het hart van Gent. Wij geloven dat boksen écht boksen, met techniek en tucht toegankelijk moet zijn voor iedereen die bereid is te werken."
+            description="600 m² aan hoogwaardig uitgeruste trainingsruimte in centrum Gent. Bij TAG geloven we dat boksen begint met techniek, discipline en toewijding. Met professionele begeleiding en een sterke community helpen we iedereen die bereid is hard te werken het beste uit zichzelf te halen. 
           />
           <Reveal delay={0.1}>
             <Link
