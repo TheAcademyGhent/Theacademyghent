@@ -31,7 +31,7 @@ export default function Hero() {
           className="font-label uppercase tracking-widest2 text-xs text-bone-muted flex items-center gap-3 mb-6"
         >
           <span className="h-px w-8 bg-bone-muted" />
-          Gent · Sinds 2014
+          GENT · Sinds 1987
         </motion.div>
 
         <motion.h1
