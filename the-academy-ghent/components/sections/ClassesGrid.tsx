@@ -13,7 +13,7 @@ export default function ClassesGrid() {
           <SectionHeading
             eyebrow="Lessen"
             title="Vier niveaus, één doel: vooruitgang."
-            description="Van je allereerste stoot tot professionele ringervaring — elk niveau bouwt voort op het vorige."
+            description="Van je allereerste stoot tot professionele ringervaring, elk niveau bouwt voort op het vorige."
           />
           <Reveal delay={0.15}>
             <Link
