@@ -74,74 +74,74 @@ export const CLASSES: ClassLevel[] = [
 
 export const COACHES: Coach[] = [
   {
-    slug: "yassine-el-amrani",
-    name: "Yassine El Amrani",
+    slug: "Kenny De Bruycker",
+    name: "Kenny De Bruycker",
     role: "Hoofdcoach & oprichter",
-    bio: "Voormalig Belgisch amateurkampioen met meer dan 12 jaar ervaring als coach. Yassine bouwde The Academy op vanuit de overtuiging dat techniek en discipline voor iedereen toegankelijk moeten zijn — niet enkel voor wedstrijdboksers.",
-    credentials: ["VTBB-gediplomeerd trainer B", "Ex-competitiebokser, 45 partijen", "12 jaar coachingervaring"],
+    bio: "Kenny De Bruycker is sinds 6 jaar hoofdcoach van The Academy Ghent en daarnaast Nationaal Elite Coach van Team Belgium. Hij begeleidt boksers van recreatief niveau tot de nationale top, met een sterke focus op techniek, discipline en prestaties."
+    credentials: ["6 jaar Hoofdcoach, Team Belgium Elite, Technische Expertise, Topsportbegeleiding"],
   },
   {
-    slug: "sarah-de-clerck",
-    name: "Sarah De Clerck",
-    role: "Hoofdcoach Boks Fit",
-    bio: "Sarah combineert een achtergrond in beweging en coaching met een passie voor boksen als fitness. Ze begeleidt de meeste volwassen recreanten en is de drijvende kracht achter Boks Fit.",
-    credentials: ["VTBB-gediplomeerd trainer B", "Bachelor Sport & Bewegen", "6 jaar coachingervaring"],
+    slug: "Peter Blauwers",
+    name: "Peter Blauwers",
+    role: "Coach All levels & Conditioning",
+    bio: "Peter Blauwers is een vaste waarde binnen onze werking. Al jarenlang maakt hij deel uit van de club, eerst als bokser en vandaag als coach. Met zijn ervaring, loyaliteit en betrokkenheid is hij een onmisbare kracht binnen het team.",
+    credentials: ["gediplomeerd trainer B", "10+ jaar coachingervaring"],
   },
   {
-    slug: "milan-van-hecke",
-    name: "Milan Van Hecke",
-    role: "Coach Performance & Sparring",
-    bio: "Milan begeleidt onze competitieboksers richting wedstrijden. Nauwgezet in techniek, streng in tactiek — en de eerste die klaarstaat in de hoek op wedstrijddag.",
-    credentials: ["VTBB-gediplomeerd trainer A", "Actief competitiebokser", "Ringcoach bij 20+ wedstrijden"],
+    slug: "Erwin Taildeman",
+    name: "Erwin Taildeman",
+    role: "Coach Performance & All levels",
+    bio: "Erwin begeleidt onze competitieboksers richting wedstrijden. Nauwgezet in techniek, streng in tactiek en staat altijd klaar in de hoek op wedstrijddag.",
+    credentials: ["gediplomeerd trainer A", "Ringcoach bij 100+ wedstrijden"],
   },
   {
-    slug: "els-verhoeven",
-    name: "Els Verhoeven",
-    role: "Coach Junior Boxing",
-    bio: "Els geeft al 5 jaar les aan onze jongste leden. Ze weet als geen ander hoe je discipline en plezier combineert, zonder ooit het respect voor de sport uit het oog te verliezen.",
-    credentials: ["VTBB-gediplomeerd jeugdtrainer", "5 jaar ervaring met jeugdreeksen"],
+    slug: "Ekram Sarrokh",
+    name: "Ekram Sarrokh",
+    role: "Oprichter / Coach Junior Boxing & Crossfit",
+    bio: "Ekram Sarrokh is medeoprichtster en een gediplomeerd CrossFit-coach met jarenlange ervaring in personal training & small group training. Ze begeleidt sporters met een sterke focus op kracht, conditie en duurzame progressie.",
+    credentials: ["gediplomeerd jeugdtrainer", "5 jaar ervaring met jeugdreeksen", "gediplomeerd Crossfit coach"],
   },
 ];
 
 export const MEMBERSHIPS: MembershipTier[] = [
   {
-    slug: "starter",
-    name: "Starter",
-    price: "€59",
+    slug: "Junior Boxing ",
+    name: "Junior Boxing",
+    price: "€40",
     billing: "/ maand",
-    idealFor: "Voor wie het wil proberen, 1x per week",
+    idealFor: "2x per week",
     features: [
-      "1 les per week",
-      "Toegang tot Boks Basics & Boks Fit",
-      "Gratis intake & materiaal in leen",
+      "2 les per week",
+      
+     "Gratis intake & materiaal in leen",
       "Geen opstartkosten",
     ],
   },
   {
-    slug: "unlimited",
-    name: "Unlimited",
-    price: "€89",
+    slug: "unlimited 18+",
+    name: "Unlimited 18+",
+    price: "€45",
     billing: "/ maand",
     idealFor: "Voor wie er echt voor gaat",
     features: [
       "Onbeperkt trainen",
       "Toegang tot alle groepslessen",
-      "Persoonlijk voortgangsgesprek per kwartaal",
       "Geen opstartkosten",
+      
     ],
     featured: true,
   },
   {
-    slug: "performance",
-    name: "Performance",
-    price: "€129",
-    billing: "/ maand",
-    idealFor: "Voor competitieboksers",
+    slug: "Beurtenkaart",
+    name: "Beurtenkaart",
+    price: "€140",
+    billing: "/ 6maand Geldig",
+    idealFor: "Flexibel trainen, zonder abonnement",
     features: [
-      "Onbeperkt trainen + sparringsessies",
-      "Persoonlijke wedstrijdbegeleiding",
-      "Voorrang bij wedstrijdinschrijvingen",
-      "Individuele technieksessies",
+      "10 losse trainingen",
+      "6maand geldig",
+      
+      
     ],
   },
 ];
