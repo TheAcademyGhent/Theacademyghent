@@ -19,19 +19,19 @@ export const IMAGES = {
 };
 
 export const STATS: Stat[] = [
-  { value: "600", label: "m² trainingsruimte" },
-  { value: "12+", label: "jaar ervaring" },
+  { value: "640", label: "m² trainingsruimte" },
+  { value: "39+", label: "jaar ervaring" },
   { value: "4", label: "gediplomeerde coaches" },
-  { value: "500+", label: "actieve leden" },
+  { value: "300+", label: "actieve leden" },
 ];
 
 export const CLASSES: ClassLevel[] = [
   {
     slug: "beginners",
-    name: "Boks Basics",
+    name: "Start to box",
     audience: "Beginners — 16+",
     description:
-      "Geen ervaring? Geen probleem. Je leert de basisstand, voetenwerk en de vier basisstoten in een rustig tempo, in een groep van gelijkgestemde starters. Geen contact, wél zweet.",
+      "Geen ervaring? Geen probleem. Je leert de basisstand, voetenwerk en de fundamenten van het boksen in een rustig tempo, in een groep van gelijkgestemde starters. Geen contact, wél zweet.",
     duration: "60 min",
     intensity: 2,
     focus: ["Techniek", "Houding", "Conditie"],
@@ -39,7 +39,7 @@ export const CLASSES: ClassLevel[] = [
   },
   {
     slug: "recreatief",
-    name: "Boks Fit",
+    name: "All Levels",
     audience: "Recreanten — alle niveaus",
     description:
       "De populairste les van de zaal. Combinatie van techniek, bokstrainingen op de zak en intervalconditie. Zwaar genoeg om écht resultaat te zien, toegankelijk genoeg om vol te houden.",
@@ -62,7 +62,7 @@ export const CLASSES: ClassLevel[] = [
   {
     slug: "jeugd",
     name: "Junior Boxing",
-    audience: "Jeugd — 8 tot 15 jaar",
+    audience: "Jeugd 7 tot 12 jaar",
     description:
       "Discipline, coördinatie en zelfvertrouwen in een veilige, gestructureerde omgeving. Onze jeugdcoaches leggen de nadruk op techniek en respect, niet op harde klappen.",
     duration: "45 min",
