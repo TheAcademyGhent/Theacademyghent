@@ -77,8 +77,8 @@ export const COACHES: Coach[] = [
     slug: "Kenny De Bruycker",
     name: "Kenny De Bruycker",
     role: "Hoofdcoach & oprichter",
-    bio: "Kenny De Bruycker is sinds 6 jaar hoofdcoach van The Academy Ghent en daarnaast Nationaal Elite Coach van Team Belgium. Hij begeleidt boksers van recreatief niveau tot de nationale top, met een sterke focus op techniek, discipline en prestaties."
-    credentials: ["6 jaar Hoofdcoach"," Team Belgium Elite","Technische Expertise","Topsportbegeleiding"],
+    bio: "Kenny De Bruycker is sinds 6 jaar hoofdcoach van The Academy Ghent en daarnaast Nationaal Elite Coach van Team Belgium. Hij begeleidt boksers van recreatief niveau tot de nationale top, met een sterke focus op techniek, discipline en prestaties.",
+    credentials: ["6 jaar Hoofdcoach","Team Belgium Elite","Technische Expertise","Topsportbegeleiding"],
   },
   {
     slug: "Peter Blauwers",
