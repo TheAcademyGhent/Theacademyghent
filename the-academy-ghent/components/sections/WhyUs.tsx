@@ -11,7 +11,7 @@ export default function WhyUs() {
       <div className="container-academy">
         <SectionHeading
           eyebrow="Waarom The Academy"
-          title="Gebouwd voor mensen die het menen."
+          title="Gebouwd op techniek. Gedreven door discipline."
           align="center"
         />
 
