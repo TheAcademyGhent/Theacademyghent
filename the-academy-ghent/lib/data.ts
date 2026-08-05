@@ -144,22 +144,22 @@ export const MEMBERSHIPS: MembershipTier[] = [
 
 export const TESTIMONIALS: Testimonial[] = [
   {
-    name: "Tom Vermeulen",
-    role: "Lid sinds 2023 — Boks Fit",
+    name: "Frederic Bonne",
+    role: "Lid sinds 2022 — All Levels",
     quote:
-      "Ik kwam voor de conditie en bleef voor de community. Na een jaar train ik drie keer per week en heb ik meer zelfvertrouwen dan ooit — op en naast de mat.",
+      "The Academy Of Golden Gloves, in 1 woord Topclub! Kenny is de Beste coach die ik al gehad heb. Wijze gast , kent zijn vak. Legt alles heel goed uit, je wordt van a tot z heel goed begeleid . Ik voelde me er direct thuis, het is net alsof ik bij mijn tweede familie kom.Een echte aanrader voor jong en oud, beginners en gevorderden. Gewoon doen!",
   },
   {
-    name: "Nora Haddad",
-    role: "Lid sinds 2024 — Boks Basics",
+    name: "Sarah Plu",
+    role: "Lid sinds 2022 — Crossfit/Stonglifts",
     quote:
-      "Nooit gedacht dat ik als 34-jarige zonder sportverleden zou beginnen met boksen. De coaches maakten het drempelloos. Nu is het het hoogtepunt van mijn week.",
+      "Na onze verhuis kwamen we terecht bij The Academy gezien dit de dichtstbijzijnde sportclub was. Nu 4 jaar later kom ik nog steeds met veel plezier naar hier! Je wordt meteen met open armen ontvangen, krijgt professionele sport begeleiding én er wordt geluisterd naar wat je wil bereiken. Zowel de bokslessen bij Kenny als de trainingen bij Ekram zijn een aanrader. Beide nemen ze de tijd om je alles uit te leggen en pushen ze je om jouw grenzen te verleggen. Dus als je een club zoekt waar je echt vooruitgang boekt, waar je alle nodige ondersteuning en begeleiding krijgt als waar je je thuis kan voelen in een hecht team, dan is The Academy the place to be!",
   },
   {
-    name: "Kobe Dhondt",
-    role: "Competitiebokser — Performance",
+    name: "Siham El Halimi",
+    role: "All Levels/Crossfit",
     quote:
-      "De begeleiding hier is op niveau van een topclub, maar met de warmte van een familie. Milan kent elke tegenstander beter voor te bereiden dan ikzelf.",
+      "Ik train hier al een paar jaar en voel me er altijd op mijn gemak. De sfeer tijdens de trainingen is altijd positief en motiverend. Zelfs als je eens een slechte dag hebt, stap je na een training gegarandeerd weer met een goed gevoel buiten. Er is een mooie balans tussen plezier en serieus trainen, waardoor je echt groeit, zowel fysiek als mentaal. De eigenaars, Ekram en Kenny, zijn enorm vriendelijke, gezellige en eerlijke mensen. Ze creëren een omgeving waarin iedereen zich welkom voelt, ongeacht niveau of achtergrond. Er wordt altijd rekening gehouden met je persoonlijke doelen en mogelijkheden. Je merkt dat er hier echt aandacht is voor respect, discipline en community. Aanrader voor wie op zoek is naar een warme, kwaliteitsvolle trainingsplek in Gent!",
   },
 ];
 
