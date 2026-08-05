@@ -266,14 +266,14 @@ export const VALUES = [
 
 export const WHY_US = [
   {
-    title: "600 m² volledig uitgerust",
+    title: "640 m² volledig uitgerust",
     description:
-      "Een van de grootste en best uitgeruste bokszalen van Gent — ringen, bokszakken, spiegelwanden en een aparte krachtruimte.",
+      "Een van de grootste en best uitgeruste bokszalen van Gent ringen, bokszakken, spiegelwanden en een aparte krachtruimte.",
   },
   {
     title: "Gediplomeerde coaches",
     description:
-      "Elke coach is VTBB-gecertificeerd en heeft zelf competitie-ervaring. Geen zelfverklaarde experts, wel bewezen expertise.",
+      "Elke coach is gecertificeerd en heeft zelf competitie-ervaring. Geen zelfverklaarde experts, wel bewezen expertise.",
   },
   {
     title: "Voor elk niveau",
@@ -283,6 +283,6 @@ export const WHY_US = [
   {
     title: "Community die blijft",
     description:
-      "Meer dan de helft van onze leden traint hier al langer dan een jaar. Geen toevalligheid — wel een plek waar mensen zich thuis voelen.",
+      "Meer dan de helft van onze leden traint hier al langer dan een jaar. Geen toevalligheid wel een plek waar mensen zich thuis voelen.",
   },
 ];
