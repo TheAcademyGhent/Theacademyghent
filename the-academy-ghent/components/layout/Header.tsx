@@ -41,7 +41,7 @@ export default function Header() {
               alt="TAG"
               width={40}
               height={40}
-              className="h-8 w-8 md:hidden object-contain"
+              className="h-12 w-12 md:hidden object-contain"
               priority
             />
             <Image
@@ -49,7 +49,7 @@ export default function Header() {
               alt="The Academy Ghent — The Academy of Golden Gloves"
               width={340}
               height={90}
-              className="hidden md:block h-9 w-auto object-contain"
+              className="hidden md:block h-16 w-auto object-contain"
               priority
             />
           </Link>
