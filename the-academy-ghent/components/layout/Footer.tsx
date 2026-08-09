@@ -14,7 +14,7 @@ export default function Footer() {
             alt={`${SITE.name} — ${SITE.tagline}`}
             width={320}
             height={84}
-            className="h-10 w-auto object-contain"
+            className="h-16 w-auto object-contain"
           />
           <p className="text-bone-muted text-sm leading-relaxed max-w-xs">
             {SITE.description}
