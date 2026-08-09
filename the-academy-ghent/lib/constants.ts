@@ -10,22 +10,20 @@ export const SITE = {
 };
 
 export const CONTACT = {
-  addressLine1: "Voorhavenlaan 12", // PLACEHOLDER adres
+  addressLine1: "Hurstweg 8", // PLACEHOLDER adres
   addressLine2: "9000 Gent, België",
-  mapQuery: "Voorhavenlaan 12, 9000 Gent, België", // PLACEHOLDER voor Google Maps embed
-  phone: "+32 9 000 00 00", // PLACEHOLDER
-  phoneHref: "tel:+3290000000",
+  mapQuery: "Hurstweg 8, 9000 Gent, België", // PLACEHOLDER voor Google Maps embed
   email: "info@theacademyghent.be", // PLACEHOLDER
   whatsapp: "https://wa.me/3290000000", // PLACEHOLDER
 };
 
 export const HOURS = [
-  { day: "Maandag", hours: "10:00 – 22:00" },
-  { day: "Dinsdag", hours: "10:00 – 22:00" },
-  { day: "Woensdag", hours: "10:00 – 22:00" },
-  { day: "Donderdag", hours: "10:00 – 22:00" },
-  { day: "Vrijdag", hours: "10:00 – 21:00" },
-  { day: "Zaterdag", hours: "09:00 – 14:00" },
+  { day: "Maandag", hours: "17:00 – 21:00" },
+  { day: "Dinsdag", hours: "17:00 – 21:00" },
+  { day: "Woensdag", hours: "17:00 – 21:00" },
+  { day: "Donderdag", hours: "17:00 – 21:00" },
+  { day: "Vrijdag", hours: "17:00 – 21:00" },
+  { day: "Zaterdag", hours: "09:00 – 12:00" },
   { day: "Zondag", hours: "Gesloten" },
 ];
 
