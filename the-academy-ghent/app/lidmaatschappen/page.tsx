@@ -5,7 +5,7 @@ import Reveal from "@/components/ui/Reveal";
 import Button from "@/components/ui/Button";
 import Accordion from "@/components/ui/Accordion";
 import PricingCard from "@/components/sections/PricingCard";
-import { MEMBERSHIPS, FEATURE_MATRIX, FAQ_MEMBERSHIP, IMAGES } from "@/lib/data";
+import { MEMBERSHIPS, FAQ_MEMBERSHIP, IMAGES } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Lidmaatschappen",
@@ -31,42 +31,6 @@ export default function LidmaatschappenPage() {
               <PricingCard tier={tier} />
             </Reveal>
           ))}
-        </div>
-      </section>
-
-      <section className="py-24 md:py-32 border-t border-surface-hairline">
-        <div className="container-academy">
-          <SectionHeading eyebrow="Vergelijk" title="Welk lidmaatschap past bij je?" />
-
-          <div className="mt-14 overflow-x-auto">
-            <table className="w-full min-w-[640px] border-collapse">
-              <thead>
-                <tr className="border-b border-surface-hairline">
-                  <th className="text-left py-4 pr-6 font-label uppercase tracking-widest2 text-[11px] text-bone-muted font-medium">
-                    Kenmerk
-                  </th>
-                  {MEMBERSHIPS.map((tier) => (
-                    <th
-                      key={tier.slug}
-                      className="text-left py-4 px-6 font-display text-base font-bold whitespace-nowrap"
-                    >
-                      {tier.name}
-                    </th>
-                  ))}
-                </tr>
-              </thead>
-              <tbody>
-                {FEATURE_MATRIX.map((row) => (
-                  <tr key={row.feature} className="border-b border-surface-hairline">
-                    <td className="py-4 pr-6 text-sm text-bone-muted">{row.feature}</td>
-                    <td className="py-4 px-6 text-sm">{row.starter}</td>
-                    <td className="py-4 px-6 text-sm">{row.unlimited}</td>
-                    <td className="py-4 px-6 text-sm">{row.performance}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
         </div>
       </section>
 
