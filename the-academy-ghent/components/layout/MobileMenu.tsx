@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
-import { NAV_ITEMS, CTA_HREF, CONTACT } from "@/lib/constants";
+import { NAV_ITEMS, CTA_HREF } from "@/lib/constants";
 import { X } from "lucide-react";
 
 interface MobileMenuProps {
@@ -61,12 +61,6 @@ export default function MobileMenu({ open, onClose, pathname }: MobileMenuProps)
             transition={{ duration: 0.5, delay: 0.5 }}
             className="container-academy mt-auto mb-10 flex flex-col gap-4"
           >
-            <a
-              href={CONTACT.phoneHref}
-              className="font-label uppercase tracking-widest2 text-xs text-bone-muted"
-            >
-              {CONTACT.phone}
-            </a>
             <Link
               href={CTA_HREF}
               className="clip-cut-sm bg-bone text-ink text-center py-4 font-label uppercase tracking-widest2 text-sm font-medium"
