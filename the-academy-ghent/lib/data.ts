@@ -6,7 +6,7 @@ export const IMAGES = {
   homeHero: "/images/hero-home.jpg",
   facility: "/images/DSC00408.jpg",
   aboutHero: "https://images.unsplash.com/photo-1716307043003-dbe6a5cc496e?q=80&w=2400&auto=format&fit=crop",
-  aboutSecondary: "https://images.unsplash.com/photo-1575747515871-2e323827539e?q=80&w=1600&auto=format&fit=crop",
+  aboutSecondary: "/images/DSC00646.jpg",
   coachesBanner: "https://images.unsplash.com/photo-1726867863287-aba3393812d0?q=80&w=2400&auto=format&fit=crop",
   membershipHero: "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?q=80&w=2000&auto=format&fit=crop",
   contactHero: "https://images.unsplash.com/photo-1716307046875-4c4ba2f43cab?q=80&w=2400&auto=format&fit=crop",
