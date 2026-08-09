@@ -207,6 +207,7 @@ export const SCHEDULE = [
     sessions: [
       { time: "17:00", name: "Junior Boxing" },
       { time: "18:00", name: "All Levels" },
+      { time: "18:30", name: "Strong Lifts" },
       { time: "19:15", name: "Performance" },
     ],
   },
@@ -221,6 +222,7 @@ export const SCHEDULE = [
     day: "Vrijdag",
     sessions: [
       { time: "18:00", name: "All Levels" },
+      { time: "18:30", name: "CrossFit" },
       { time: "19:15", name: "Performance" },
     ],
   },
