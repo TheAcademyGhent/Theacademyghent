@@ -37,19 +37,11 @@ export default function Header() {
         <div className="container-academy flex items-center justify-between h-20 md:h-24">
           <Link href="/" className="flex items-center gap-3 shrink-0" aria-label="The Academy Ghent — Home">
             <Image
-              src="/images/tag-mark.png"
-              alt="TAG"
-              width={40}
-              height={40}
-              className="h-12 w-12 md:hidden object-contain"
-              priority
-            />
-            <Image
               src="/images/tag-lockup.png"
               alt="The Academy Ghent — The Academy of Golden Gloves"
               width={340}
               height={90}
-              className="hidden md:block h-16 w-auto object-contain"
+              className="h-12 md:h-16 w-auto object-contain"
               priority
             />
           </Link>
