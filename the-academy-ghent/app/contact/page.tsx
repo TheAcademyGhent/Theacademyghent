@@ -5,7 +5,7 @@ import Reveal from "@/components/ui/Reveal";
 import ContactForm from "@/components/forms/ContactForm";
 import { CONTACT, HOURS } from "@/lib/constants";
 import { IMAGES } from "@/lib/data";
-import { MapPin, Phone, Mail } from "lucide-react";
+import { MapPin, Mail } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -42,12 +42,6 @@ export default function ContactPage() {
                     <p className="text-sm">{CONTACT.addressLine1}</p>
                     <p className="text-sm text-bone-muted">{CONTACT.addressLine2}</p>
                   </div>
-                </div>
-                <div className="flex items-start gap-4">
-                  <Phone size={20} strokeWidth={1.5} className="text-bone-muted mt-0.5 shrink-0" />
-                  <a href={CONTACT.phoneHref} className="text-sm hover:text-bone-muted transition-colors">
-                    {CONTACT.phone}
-                  </a>
                 </div>
                 <div className="flex items-start gap-4">
                   <Mail size={20} strokeWidth={1.5} className="text-bone-muted mt-0.5 shrink-0" />
