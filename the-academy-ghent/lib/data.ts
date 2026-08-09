@@ -167,7 +167,7 @@ export const FAQ_MEMBERSHIP: FaqItem[] = [
   {
     question: "Heb ik ervaring nodig om te starten?",
     answer:
-      "Nee. Onze Boks Basics-lessen zijn specifiek ontworpen voor complete beginners. De meeste van onze leden hadden nul bokservaring voor ze bij ons startten.",
+      "Nee. Onze Start To Box lessen zijn specifiek ontworpen voor complete beginners. De meeste van onze leden hadden nul bokservaring voor ze bij ons startten.",
   },
   {
     question: "Wat moet ik meebrengen naar mijn eerste les?",
