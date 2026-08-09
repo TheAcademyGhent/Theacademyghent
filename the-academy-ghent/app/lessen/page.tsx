@@ -23,7 +23,7 @@ export default function LessenPage() {
         image={IMAGES.classCompetitie}
       />
 
-      <nav className="sticky top-20 md:top-24 z-30 bg-ink/90 backdrop-blur-md border-b border-surface-hairline">
+      <nav className="sticky top-24 md:top-28 z-30 bg-ink/90 backdrop-blur-md border-b border-surface-hairline">
         <div className="container-academy flex items-center gap-8 overflow-x-auto no-scrollbar h-16">
           {CLASSES.map((c) => (
             <a
