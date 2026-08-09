@@ -48,7 +48,6 @@ export default function Footer() {
           <div className="flex flex-col gap-2 text-sm text-bone">
             <span>{CONTACT.addressLine1}</span>
             <span>{CONTACT.addressLine2}</span>
-            <a href={CONTACT.phoneHref} className="hover:text-bone-muted transition-colors">{CONTACT.phone}</a>
             <a href={`mailto:${CONTACT.email}`} className="hover:text-bone-muted transition-colors">{CONTACT.email}</a>
           </div>
         </div>
