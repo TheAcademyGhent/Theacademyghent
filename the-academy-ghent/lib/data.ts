@@ -221,7 +221,7 @@ export const SCHEDULE = [
     day: "Vrijdag",
     sessions: [
       { time: "18:00", name: "All Levels" },
-      { time: "19:00", name: "Boks Fit" },
+      { time: "19:15", name: "Performance" },
     ],
   },
   {
