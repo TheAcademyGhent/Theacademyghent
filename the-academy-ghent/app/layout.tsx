@@ -63,7 +63,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     name: SITE.name,
     description: SITE.description,
     url: SITE.url,
-    telephone: CONTACT.phone,
     email: CONTACT.email,
     address: {
       "@type": "PostalAddress",
