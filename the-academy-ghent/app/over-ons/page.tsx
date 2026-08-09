@@ -26,28 +26,28 @@ export default function OverOnsPage() {
       <section className="py-24 md:py-36">
         <div className="container-academy grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
           <div className="lg:col-span-5">
-            <SectionHeading eyebrow="Ons verhaal" title="Van een lege loods tot 600 m² Gentse bokstraditie." />
+            <SectionHeading eyebrow="Ons verhaal" title="Van een kleine zaal naar het hart van het Belgische boksen.
+Gebouwd vanuit passie. Gegroeid door ambitie.
+Een jonge club met een rijke geschiedenis." />
           </div>
           <Reveal className="lg:col-span-7" delay={0.1}>
             <div className="flex flex-col gap-6 text-bone-muted text-base md:text-lg leading-relaxed">
               <p>
-                The Academy Ghent startte in 2014 in een bescheiden ruimte met
-                twee bokszakken en de overtuiging dat elke Gentenaar — jong of
-                oud, ervaren of complete beginner — de kans moest krijgen om
-                écht te leren boksen.
+               The Academy Ghent opende in 2020 de deuren met één duidelijke ambitie: een plek
+                creëren waar mensen konden groeien via boksen, krachttraining, CrossFit en
+                persoonlijke begeleiding. We begonnen in een kleine zaal, tijdens enkele van de
+                moeilijkste jaren voor de sportwereld. Toch bouwden we daar onze eerste community en onze identiteit op.
               </p>
               <p>
-                Meer dan tien jaar later trainen we in een van de best
-                uitgeruste bokszalen van de stad: 600 m² met volwaardige
-                ringen, een uitgebreide bokszakvloer, spiegelwanden voor
-                techniekwerk en een aparte krachtruimte. Wat niet veranderd
-                is: de aandacht van onze coaches voor elk individueel lid,
-                ongeacht niveau.
+                Al snel groeide The Academy Ghent uit tot een vaste waarde in Gent voor iedereen
+                die écht wilde leren boksen. Vanuit die passie ontwikkelden we ons verder en
+                groeiden we uit tot een toonaangevende club in Gent en omstreken op het vlak van competitie.
+                Wat begon als een kleine zaal, werd een club met een duidelijke visie en grote ambities.
               </p>
               <p>
-                Vandaag trainen hier beginners naast competitieboksers,
-                tieners naast veertigers. Die mix is geen toeval — het is
-                precies wat een goede boksschool volgens ons moet zijn.
+                In 2025 gingen we een fusie aan met Golden Gloves, één van de oudste boksclubs van België, opgericht in 1987.
+                Uit die samenwerking ontstond The Academy of Golden Gloves: een combinatie van een moderne visie, een nieuwe generatie en een rijke boksgeschiedenis.
+                Vandaag beschikken we over een van de best uitgeruste faciliteiten voor het Engels boksen in België klaar om de volgende generatie boksers te begeleiden.
               </p>
             </div>
           </Reveal>
