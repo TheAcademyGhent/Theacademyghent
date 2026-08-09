@@ -64,8 +64,8 @@ export const CLASSES: ClassLevel[] = [
     name: "Junior Boxing",
     audience: "Jeugd 7 tot 12 jaar",
     description:
-      "Discipline, coördinatie en zelfvertrouwen in een veilige, gestructureerde omgeving. Onze jeugdcoaches leggen de nadruk op techniek en respect, niet op harde klappen.",
-    duration: "45 min",
+      "Boksen voor de jongste sporters. In Junior Boxing leren kinderen op een leuke en veilige manier de basis van het boksen, terwijl ze werken aan coördinatie, conditie, discipline en zelfvertrouwen. Geen harde klappen, wél bewegen, leren en plezier maken.",
+    duration: "60 min",
     intensity: 2,
     focus: ["Coördinatie", "Discipline", "Plezier"],
     image: "classJeugd",
@@ -190,47 +190,45 @@ export const SCHEDULE = [
   {
     day: "Maandag",
     sessions: [
-      { time: "18:00", name: "Boks Basics" },
-      { time: "19:15", name: "Boks Fit" },
-      { time: "20:30", name: "Performance" },
+      { time: "18:00", name: "All Levels" },
+      { time: "18:30", name: "Crossfit" },
+      { time: "19:15", name: "Performance" },
     ],
   },
   {
     day: "Dinsdag",
     sessions: [
-      { time: "17:00", name: "Junior Boxing" },
-      { time: "18:30", name: "Boks Fit" },
-      { time: "20:00", name: "Performance" },
+      { time: "18:00", name: "Endurance" },
+      { time: "19:00", name: "Start to Box" },
     ],
   },
   {
     day: "Woensdag",
     sessions: [
-      { time: "12:00", name: "Boks Fit" },
-      { time: "18:00", name: "Boks Basics" },
-      { time: "19:15", name: "Boks Fit" },
+      { time: "17:00", name: "Junior Boxing" },
+      { time: "18:00", name: "All Levels" },
+      { time: "19:15", name: "Performance" },
     ],
   },
   {
     day: "Donderdag",
     sessions: [
-      { time: "17:00", name: "Junior Boxing" },
-      { time: "18:30", name: "Performance" },
-      { time: "20:00", name: "Boks Fit" },
+      { time: "18:00", name: "Boxing Endurance" },
+      { time: "19:00", name: "Start to Box" },
     ],
   },
   {
     day: "Vrijdag",
     sessions: [
-      { time: "18:00", name: "Boks Basics" },
+      { time: "18:00", name: "All Levels" },
       { time: "19:00", name: "Boks Fit" },
     ],
   },
   {
     day: "Zaterdag",
     sessions: [
-      { time: "10:00", name: "Boks Fit" },
-      { time: "11:15", name: "Junior Boxing" },
+      { time: "10:00", name: "Junior Boxing" },
+      { time: "11:00", name: "Endurance" },
     ],
   },
 ];
