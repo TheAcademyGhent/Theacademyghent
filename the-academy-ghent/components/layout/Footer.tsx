@@ -76,7 +76,9 @@ export default function Footer() {
           <span>© {new Date().getFullYear()} {SITE.name}. Alle rechten voorbehouden.</span>
           <div className="flex items-center gap-6">
             <span>Privacybeleid</span>
-            <span>Algemene voorwaarden</span>
+            <Link href="/algemene-voorwaarden" className="hover:text-bone transition-colors">
+              Algemene voorwaarden
+            </Link>
           </div>
         </div>
       </div>
