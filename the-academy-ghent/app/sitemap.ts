@@ -10,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/lidmaatschappen",
     "/contact",
     "/schrijf-je-in",
+    "/algemene-voorwaarden",
   ];
 
   return routes.map((route) => ({
