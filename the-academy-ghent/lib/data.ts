@@ -105,11 +105,11 @@ export const COACHES: Coach[] = [
     credentials: ["6 jaar Hoofdcoach","Team Belgium Elite","Technische Expertise","Topsportbegeleiding"],
   },
   {
-    slug: "Peter Blauwers",
-    name: "Peter Blauwers",
-    role: "Coach All levels & Conditioning",
-    bio: "Peter Blauwers is een vaste waarde binnen onze werking. Al jarenlang maakt hij deel uit van de club, eerst als bokser en vandaag als coach. Met zijn ervaring, loyaliteit en betrokkenheid is hij een onmisbare kracht binnen het team.",
-    credentials: ["gediplomeerd trainer B", "10+ jaar coachingervaring"],
+    slug: "Ekram Sarrokh",
+    name: "Ekram Sarrokh",
+    role: "Oprichter / Coach Junior Boxing & Crossfit",
+    bio: "Ekram Sarrokh is medeoprichtster en een gediplomeerd CrossFit-coach met jarenlange ervaring in personal training & small group training. Ze begeleidt sporters met een sterke focus op kracht, conditie en duurzame progressie.",
+    credentials: ["gediplomeerd jeugdtrainer", "5 jaar ervaring met jeugdreeksen", "gediplomeerd Crossfit coach"],
   },
   {
     slug: "Erwin Taildeman",
@@ -119,11 +119,11 @@ export const COACHES: Coach[] = [
     credentials: ["gediplomeerd trainer A", "Ringcoach bij 100+ wedstrijden"],
   },
   {
-    slug: "Ekram Sarrokh",
-    name: "Ekram Sarrokh",
-    role: "Oprichter / Coach Junior Boxing & Crossfit",
-    bio: "Ekram Sarrokh is medeoprichtster en een gediplomeerd CrossFit-coach met jarenlange ervaring in personal training & small group training. Ze begeleidt sporters met een sterke focus op kracht, conditie en duurzame progressie.",
-    credentials: ["gediplomeerd jeugdtrainer", "5 jaar ervaring met jeugdreeksen", "gediplomeerd Crossfit coach"],
+    slug: "Peter Blauwers",
+    name: "Peter Blauwers",
+    role: "Coach All levels & Conditioning",
+    bio: "Peter Blauwers is een vaste waarde binnen onze werking. Al jarenlang maakt hij deel uit van de club, eerst als bokser en vandaag als coach. Met zijn ervaring, loyaliteit en betrokkenheid is hij een onmisbare kracht binnen het team.",
+    credentials: ["gediplomeerd trainer B", "10+ jaar coachingervaring"],
   },
   {
     slug: "Allasan Kane",
