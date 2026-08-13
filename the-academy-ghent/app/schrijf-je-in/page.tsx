@@ -11,14 +11,12 @@ export const metadata: Metadata = {
     "Boek meteen een gratis proefles bij The Academy Ghent via onze online agenda — kies zelf je moment.",
   alternates: { canonical: "/schrijf-je-in" },
 };
-
 const CHECKLIST = [
   "Geen ervaring nodig",
   "Materiaal gratis in leen",
   "Vrijblijvend en kosteloos",
   "Directe bevestiging",
 ];
-
 export default function SchrijfJeInPage() {
   return (
     <>
@@ -28,7 +26,6 @@ export default function SchrijfJeInPage() {
         description="Kies hieronder meteen een moment dat je uitkomt — geen formulier, geen wachttijd."
         image={IMAGES.enrollHero}
       />
-
       <section className="py-24 md:py-36">
         <div className="container-academy flex flex-col gap-12">
           <Reveal>
@@ -41,7 +38,6 @@ export default function SchrijfJeInPage() {
               ))}
             </div>
           </Reveal>
-
           <Reveal delay={0.1}>
             <div className="clip-cut-md overflow-hidden border border-surface-hairline min-h-[650px]">
               <Script
