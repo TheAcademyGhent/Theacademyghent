@@ -16,6 +16,8 @@ export const IMAGES = {
   classRecreatief: "https://images.unsplash.com/photo-1636302925863-6ad504baaf3c?q=80&w=1600&auto=format&fit=crop",
   classCompetitie: "https://images.unsplash.com/photo-1517438322307-e67111335449?q=80&w=1600&auto=format&fit=crop",
   classJeugd: "https://images.unsplash.com/photo-1633394782368-6e7260566004?q=80&w=1600&auto=format&fit=crop",
+  classCrossfit: "https://images.unsplash.com/photo-1623874106686-5be2b325c8f1?q=80&w=1600&auto=format&fit=crop",
+  classStronglifts: "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=1600&auto=format&fit=crop",
 };
 
 export const STATS: Stat[] = [
@@ -70,6 +72,28 @@ export const CLASSES: ClassLevel[] = [
     focus: ["Coördinatie", "Discipline", "Plezier"],
     image: "classJeugd",
   },
+  {
+    slug: "crossfit",
+    name: "CrossFit",
+    audience: "Volwassenen — alle niveaus",
+    description:
+      "The Academy Ghent is een officieel erkende CrossFit-affiliate. Functionele, high-intensity workouts die per dag verschillen (WOD), begeleid door gecertificeerde CrossFit-coaches.",
+    duration: "60 min",
+    intensity: 4,
+    focus: ["Kracht", "Conditie", "Functioneel"],
+    image: "classCrossfit",
+  },
+  {
+    slug: "stronglifts",
+    name: "Stronglifts",
+    audience: "Volwassenen — alle niveaus",
+    description:
+      "Pure krachtopbouw met de basisoefeningen: squat, deadlift, bench press, overhead press en rows. Gestructureerde progressie, ideaal om stap voor stap sterker te worden.",
+    duration: "60 min",
+    intensity: 3,
+    focus: ["Kracht", "Techniek", "Progressie"],
+    image: "classStronglifts",
+  },
 ];
 
 export const COACHES: Coach[] = [
@@ -100,6 +124,13 @@ export const COACHES: Coach[] = [
     role: "Oprichter / Coach Junior Boxing & Crossfit",
     bio: "Ekram Sarrokh is medeoprichtster en een gediplomeerd CrossFit-coach met jarenlange ervaring in personal training & small group training. Ze begeleidt sporters met een sterke focus op kracht, conditie en duurzame progressie.",
     credentials: ["gediplomeerd jeugdtrainer", "5 jaar ervaring met jeugdreeksen", "gediplomeerd Crossfit coach"],
+  },
+  {
+    slug: "Allasan Kane",
+    name: "Allasan Kane",
+    role: "Profbokser & Verantwoordelijk voor All Levels & Start to Box",
+    bio: "Allasan Kane is professioneel bokser en verantwoordelijk voor onze All Levels- en Start to Box-lessen. Met zijn ervaring op het hoogste niveau brengt hij techniek en discipline op maat van beginners én gevorderden, in een toegankelijke maar doelgerichte aanpak.",
+    credentials: ["Professioneel bokser", "Verantwoordelijk voor All Levels & Start to Box"],
   },
 ];
 
