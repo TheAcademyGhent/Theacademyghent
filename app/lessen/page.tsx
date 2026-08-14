@@ -5,6 +5,7 @@ import SectionHeading from "@/components/ui/SectionHeading";
 import Reveal from "@/components/ui/Reveal";
 import Button from "@/components/ui/Button";
 import { CLASSES, IMAGES, SCHEDULE } from "@/lib/data";
+import { CTA_HREF } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Lessen",
@@ -92,7 +93,7 @@ export default function LessenPage() {
               </Reveal>
 
               <Reveal delay={0.18}>
-                <Button href="/schrijf-je-in" variant="primary" size="md" className="w-fit">
+                <Button href={CTA_HREF} variant="primary" size="md" className="w-fit">
                   Boek een proefles
                 </Button>
               </Reveal>
@@ -145,7 +146,7 @@ export default function LessenPage() {
             </p>
           </Reveal>
           <Reveal delay={0.18}>
-            <Button href="/schrijf-je-in" variant="primary" size="lg">Boek een gratis proefles</Button>
+            <Button href={CTA_HREF} variant="primary" size="lg">Boek een gratis proefles</Button>
           </Reveal>
         </div>
       </section>
