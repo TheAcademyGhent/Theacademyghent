@@ -1,6 +1,7 @@
 import { Check } from "lucide-react";
 import { MembershipTier } from "@/types";
 import Button from "@/components/ui/Button";
+import { CTA_HREF } from "@/lib/constants";
 
 interface PricingCardProps {
   tier: MembershipTier;
