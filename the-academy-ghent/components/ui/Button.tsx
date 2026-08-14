@@ -39,16 +39,28 @@ export default function Button({
   size = "md",
   type = "button",
   className = "",
+  forceReload = false,
 }: ButtonProps) {
   const classes = `${base} ${variants[variant]} ${sizes[size]} ${className}`;
+  const isExternal = href?.startsWith("http");
 
-  if (href) {
+  if (href && isExternal) {
     return (
-      <Link href={href} className={classes}>
+      <a href={href} className={classes} target="_blank" rel="noopener noreferrer">
         {children}
-      </Link>
+      </a>
     );
   }
+
+  if (href && forceReload) {
+    return (
+      <a href={href} className={classes}>
+        {children}
+      </a>
+    );
+  }
+
+  if (href) {
 
   return (
     <button type={type} onClick={onClick} className={classes}>
