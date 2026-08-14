@@ -4,6 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import Button from "@/components/ui/Button";
 import { IMAGES } from "@/lib/data";
+import { CTA_HREF } from "@/lib/constants";
 
 const ease = [0.16, 1, 0.3, 1] as const;
 
