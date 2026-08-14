@@ -62,7 +62,9 @@ export default function MobileMenu({ open, onClose, pathname }: MobileMenuProps)
             className="container-academy mt-auto mb-10 flex flex-col gap-4"
           >
             <Link
-              href={CTA_HREF}
+             href={CTA_HREF}
+              target="_blank"
+              rel="noopener noreferrer"
               className="clip-cut-sm bg-bone text-ink text-center py-4 font-label uppercase tracking-widest2 text-sm font-medium"
             >
               Schrijf je in
