@@ -2,6 +2,7 @@ import Image from "next/image";
 import Button from "@/components/ui/Button";
 import Reveal from "@/components/ui/Reveal";
 import { IMAGES } from "@/lib/data";
+import { CTA_HREF } from "@/lib/constants";
 
 export default function ClosingCTA() {
   return (
