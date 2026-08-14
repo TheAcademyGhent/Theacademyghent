@@ -30,7 +30,7 @@ export default function ClosingCTA() {
           </p>
         </Reveal>
         <Reveal delay={0.2}>
-          <Button href="/schrijf-je-in" variant="primary" size="lg">
+          <Button href={CTA_HREF} variant="primary" size="lg">
             Boek een gratis proefles
           </Button>
         </Reveal>
