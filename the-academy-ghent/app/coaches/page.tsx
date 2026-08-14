@@ -5,6 +5,7 @@ import Reveal from "@/components/ui/Reveal";
 import Button from "@/components/ui/Button";
 import CoachCard from "@/components/sections/CoachCard";
 import { COACHES, IMAGES } from "@/lib/data";
+import { CTA_HREF } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Coaches",
@@ -45,7 +46,7 @@ export default function CoachesPage() {
             </h2>
           </Reveal>
           <Reveal delay={0.1}>
-            <Button href="/schrijf-je-in" variant="primary" size="lg">
+            <Button href={CTA_HREF} variant="primary" size="lg">
               Boek een gratis proefles
             </Button>
           </Reveal>
