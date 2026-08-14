@@ -6,6 +6,7 @@ import Button from "@/components/ui/Button";
 import Accordion from "@/components/ui/Accordion";
 import PricingCard from "@/components/sections/PricingCard";
 import { MEMBERSHIPS, FAQ_MEMBERSHIP, IMAGES } from "@/lib/data";
+import { CTA_HREF } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Lidmaatschappen",
