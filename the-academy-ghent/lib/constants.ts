@@ -42,4 +42,9 @@ export const NAV_ITEMS = [
   { label: "Contact", href: "/contact" },
 ];
 
-export const CTA_HREF = "/schrijf-je-in";
+export const SHOP_URL = "https://the-academy-of-golden-gloves.trainin.app/shop";
+
+// De primaire "Schrijf je in"-call-to-action wijst naar de externe Trainin-webshop.
+// De interne agenda-pagina (/schrijf-je-in) blijft bestaan, maar wordt niet langer
+// als primaire bestemming gelinkt vanuit de knoppen.
+export const CTA_HREF = SHOP_URL;
