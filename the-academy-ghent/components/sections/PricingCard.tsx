@@ -42,7 +42,7 @@ export default function PricingCard({ tier }: PricingCardProps) {
         ))}
       </ul>
 
-      <Button href="/schrijf-je-in" variant={featured ? "secondary" : "primary"} size="md" className={featured ? "!border-ink !text-ink hover:!bg-ink hover:!text-bone" : ""}>
+      <Button href={CTA_HREF} variant={featured ? "secondary" : "primary"}
         Kies {tier.name}
       </Button>
     </div>
