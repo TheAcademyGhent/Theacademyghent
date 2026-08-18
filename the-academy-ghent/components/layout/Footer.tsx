@@ -75,7 +75,9 @@ export default function Footer() {
         <div className="container-academy py-6 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-bone-muted">
           <span>© {new Date().getFullYear()} {SITE.name}. Alle rechten voorbehouden.</span>
           <div className="flex items-center gap-6">
-            <span>Privacybeleid</span>
+            <Link href="/privacybeleid" className="hover:text-bone transition-colors">
+              Privacybeleid
+            </Link>
             <Link href="/algemene-voorwaarden" className="hover:text-bone transition-colors">
               Algemene voorwaarden
             </Link>
