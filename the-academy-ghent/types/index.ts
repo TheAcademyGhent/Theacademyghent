@@ -15,6 +15,7 @@ export interface Coach {
   role: string;
   bio: string;
   credentials: string[];
+  image?: string;
 }
 
 export interface MembershipTier {

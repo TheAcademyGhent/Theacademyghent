@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Coach } from "@/types";
 
 function initials(name: string) {
@@ -19,9 +20,19 @@ export default function CoachCard({ coach, compact = false }: CoachCardProps) {
   return (
     <div className="flex flex-col gap-6">
       <div className="relative aspect-[4/5] clip-cut-md bg-surface border border-surface-hairline flex items-center justify-center overflow-hidden group">
-        <span className="font-display text-6xl md:text-7xl font-extrabold text-bone-muted/25 group-hover:text-bone-muted/40 transition-colors duration-500">
-          {initials(coach.name)}
-        </span>
+        {coach.image ? (
+          <Image
+            src={coach.image}
+            alt={coach.name}
+            fill
+            sizes="(max-width: 768px) 100vw, 25vw"
+            className="object-cover grayscale contrast-[1.08] brightness-[0.85] transition-transform duration-500 group-hover:scale-105"
+          />
+        ) : (
+          <span className="font-display text-6xl md:text-7xl font-extrabold text-bone-muted/25 group-hover:text-bone-muted/40 transition-colors duration-500">
+            {initials(coach.name)}
+          </span>
+        )}
         <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-ink/60 to-transparent" />
       </div>
 

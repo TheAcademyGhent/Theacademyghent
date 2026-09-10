@@ -5,19 +5,19 @@ import { ClassLevel, Coach, MembershipTier, Testimonial, FaqItem, Stat } from "@
 export const IMAGES = {
   homeHero: "/images/hero-home.jpg",
   facility: "/images/DSC00408.jpg",
-  aboutHero: "https://images.unsplash.com/photo-1716307043003-dbe6a5cc496e?q=80&w=2400&auto=format&fit=crop",
+  aboutHero: "/images/venue/zaal-ring-wide.jpg",
   aboutSecondary: "/images/IMG_5129.jpg",
-  coachesBanner: "https://images.unsplash.com/photo-1726867863287-aba3393812d0?q=80&w=2400&auto=format&fit=crop",
+  coachesBanner: "/images/venue/zaal-bags.jpg",
   membershipHero: "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?q=80&w=2000&auto=format&fit=crop",
   contactHero: "https://images.unsplash.com/photo-1716307046875-4c4ba2f43cab?q=80&w=2400&auto=format&fit=crop",
   enrollHero: "https://images.unsplash.com/photo-1651707999601-cba87015439c?q=80&w=2400&auto=format&fit=crop",
   closingCta: "https://images.unsplash.com/photo-1557564437-0995702f88fc?q=80&w=2000&auto=format&fit=crop",
-  classBeginners: "https://images.unsplash.com/photo-1636581563867-1ecab574858f?q=80&w=1600&auto=format&fit=crop",
+  classBeginners: "/images/DSC00646.jpg",
   classRecreatief: "https://images.unsplash.com/photo-1636302925863-6ad504baaf3c?q=80&w=1600&auto=format&fit=crop",
-  classCompetitie: "https://images.unsplash.com/photo-1517438322307-e67111335449?q=80&w=1600&auto=format&fit=crop",
+  classCompetitie: "/images/venue/zaal-ring-hero.jpg",
   classJeugd: "https://images.unsplash.com/photo-1633394782368-6e7260566004?q=80&w=1600&auto=format&fit=crop",
-  classCrossfit: "https://images.unsplash.com/photo-1623874106686-5be2b325c8f1?q=80&w=1600&auto=format&fit=crop",
-  classStronglifts: "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=1600&auto=format&fit=crop",
+  classCrossfit: "/images/venue/zaal-strength.jpg",
+  classStronglifts: "/images/venue/zaal-rowers.jpg",
 };
 
 export const STATS: Stat[] = [
@@ -103,6 +103,7 @@ export const COACHES: Coach[] = [
     role: "Hoofdcoach & oprichter",
     bio: "Kenny De Bruycker is sinds 6 jaar hoofdcoach van The Academy Ghent en daarnaast Nationaal Elite Coach van Team Belgium. Hij begeleidt boksers van recreatief niveau tot de nationale top, met een sterke focus op techniek, discipline en prestaties.",
     credentials: ["6 jaar Hoofdcoach","Team Belgium Elite","Technische Expertise","Topsportbegeleiding"],
+    image: "/images/coaches/kenny-de-bruycker.jpg",
   },
   {
     slug: "Ekram Sarrokh",
@@ -110,6 +111,7 @@ export const COACHES: Coach[] = [
     role: "Oprichter / Coach Junior Boxing & Crossfit",
     bio: "Ekram Sarrokh is medeoprichtster en een gediplomeerd CrossFit-coach met jarenlange ervaring in personal training & small group training. Ze begeleidt sporters met een sterke focus op kracht, conditie en duurzame progressie.",
     credentials: ["gediplomeerd jeugdtrainer", "5 jaar ervaring met jeugdreeksen", "gediplomeerd Crossfit coach"],
+    image: "/images/coaches/ekram-sarrokh.jpg",
   },
   {
     slug: "Erwin Taildeman",
@@ -117,6 +119,7 @@ export const COACHES: Coach[] = [
     role: "Coach Performance & All levels",
     bio: "Erwin begeleidt onze competitieboksers richting wedstrijden. Nauwgezet in techniek, streng in tactiek en staat altijd klaar in de hoek op wedstrijddag.",
     credentials: ["gediplomeerd trainer A", "Ringcoach bij 100+ wedstrijden"],
+    image: "/images/coaches/erwin-taildeman.jpg",
   },
   {
     slug: "Peter Blauwers",
@@ -124,6 +127,7 @@ export const COACHES: Coach[] = [
     role: "Coach All levels & Conditioning",
     bio: "Peter Blauwers is een vaste waarde binnen onze werking. Al jarenlang maakt hij deel uit van de club, eerst als bokser en vandaag als coach. Met zijn ervaring, loyaliteit en betrokkenheid is hij een onmisbare kracht binnen het team.",
     credentials: ["gediplomeerd trainer B", "10+ jaar coachingervaring"],
+    image: "/images/coaches/peter-blauwers.jpg",
   },
   {
     slug: "Allasan Kane",
@@ -131,6 +135,7 @@ export const COACHES: Coach[] = [
     role: "Profbokser & Verantwoordelijk voor All Levels & Start to Box",
     bio: "Allasan Kane is professioneel bokser en verantwoordelijk voor onze All Levels- en Start to Box-lessen. Met zijn ervaring op het hoogste niveau brengt hij techniek en discipline op maat van beginners én gevorderden, in een toegankelijke maar doelgerichte aanpak.",
     credentials: ["Professioneel bokser", "Verantwoordelijk voor All Levels & Start to Box"],
+    image: "/images/coaches/allasan-kane.jpg",
   },
 ];
 
